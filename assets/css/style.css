@@ -92,3 +92,11 @@
         font-size: 1.5em;
     }
 }
+
+.topminus100{
+    margin-top: -100px!important;
+}
+
+.topplus50{
+    margin-top: 50px!important;
+}
