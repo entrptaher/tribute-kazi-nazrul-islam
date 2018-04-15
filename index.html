@@ -14,16 +14,15 @@
 <body>
     <!-- Page Contents -->
     <div class="pusher">
-        <div class="ui inverted vertical masthead center aligned segment">
+        <div class="ui large fixed menu pointing inverted borderless">
             <div class="ui container">
-                <div class="ui large secondary inverted pointing menu">
-                    <a class="item" href="#">Home</a>
-                    <a class="item" href="#about">About</a>
-                    <a class="item" href="#career">Career</a>
-                    <a class="item" href="#achievements">Achievements</a>
-                </div>
+                <a class="item" href="#" onclick="smoothScroll(document.querySelector('#top'))">Home</a>
+                <a class="item" href="#about"  onclick="smoothScroll(document.querySelector('#about'))">About</a>
+                <a class="item" href="#career" onclick="smoothScroll(document.querySelector('#career'))">Career</a>
+                <a class="item" href="#achievements" onclick="smoothScroll(document.querySelector('#achievements'))">Achievements</a>
             </div>
-
+        </div>
+        <div id="top" class="ui inverted vertical masthead center aligned segment">
             <div class="ui text container">
                 <h1 class="ui inverted header">
                     Kazi Nazrul Islam
@@ -343,6 +342,7 @@
     </div>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
